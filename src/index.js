@@ -10,7 +10,7 @@ function Square(props) {
     );
   }
   
-  class Board extends React.Component {
+  class Board1 extends React.Component {
     renderSquare(i) {
       return (
         <Square
@@ -40,15 +40,279 @@ function Square(props) {
             </div>
           </div>
         );
-      }
     }
+  }
+  
+  class Board2 extends React.Component {
+    renderSquare(i) {
+      return (
+        <Square
+            value={this.props.squares[i]}
+            onClick={() => this.props.onClick(i)}
+        />
+      );
+    }
+  
+    render() {
+        return (
+          <div>
+            <div className="board-row">
+              {this.renderSquare(9)}
+              {this.renderSquare(10)}
+              {this.renderSquare(11)}
+            </div>
+            <div className="board-row">
+              {this.renderSquare(12)}
+              {this.renderSquare(13)}
+              {this.renderSquare(14)}
+            </div>
+            <div className="board-row">
+              {this.renderSquare(15)}
+              {this.renderSquare(16)}
+              {this.renderSquare(17)}
+            </div>
+          </div>
+        );
+    }
+  }
+  
+  class Board3 extends React.Component {
+    renderSquare(i) {
+      return (
+        <Square
+            value={this.props.squares[i]}
+            onClick={() => this.props.onClick(i)}
+        />
+      );
+    }
+  
+    render() {
+        return (
+          <div>
+            <div className="board-row">
+              {this.renderSquare(18)}
+              {this.renderSquare(19)}
+              {this.renderSquare(20)}
+            </div>
+            <div className="board-row">
+              {this.renderSquare(21)}
+              {this.renderSquare(22)}
+              {this.renderSquare(23)}
+            </div>
+            <div className="board-row">
+              {this.renderSquare(24)}
+              {this.renderSquare(25)}
+              {this.renderSquare(26)}
+            </div>
+          </div>
+        );
+    }
+  }
+  
+  class Board4 extends React.Component {
+    renderSquare(i) {
+      return (
+        <Square
+            value={this.props.squares[i]}
+            onClick={() => this.props.onClick(i)}
+        />
+      );
+    }
+  
+    render() {
+        return (
+          <div>
+            <div className="board-row">
+              {this.renderSquare(27)}
+              {this.renderSquare(28)}
+              {this.renderSquare(29)}
+            </div>
+            <div className="board-row">
+              {this.renderSquare(30)}
+              {this.renderSquare(31)}
+              {this.renderSquare(32)}
+            </div>
+            <div className="board-row">
+              {this.renderSquare(33)}
+              {this.renderSquare(34)}
+              {this.renderSquare(35)}
+            </div>
+          </div>
+        );
+    }
+  }
+  
+  class Board5 extends React.Component {
+    renderSquare(i) {
+      return (
+        <Square
+            value={this.props.squares[i]}
+            onClick={() => this.props.onClick(i)}
+        />
+      );
+    }
+  
+    render() {
+        return (
+          <div>
+            <div className="board-row">
+              {this.renderSquare(36)}
+              {this.renderSquare(37)}
+              {this.renderSquare(38)}
+            </div>
+            <div className="board-row">
+              {this.renderSquare(39)}
+              {this.renderSquare(40)}
+              {this.renderSquare(41)}
+            </div>
+            <div className="board-row">
+              {this.renderSquare(42)}
+              {this.renderSquare(43)}
+              {this.renderSquare(44)}
+            </div>
+          </div>
+        );
+    }
+  }
+  
+  class Board6 extends React.Component {
+    renderSquare(i) {
+      return (
+        <Square
+            value={this.props.squares[i]}
+            onClick={() => this.props.onClick(i)}
+        />
+      );
+    }
+  
+    render() {
+        return (
+          <div>
+            <div className="board-row">
+              {this.renderSquare(45)}
+              {this.renderSquare(46)}
+              {this.renderSquare(47)}
+            </div>
+            <div className="board-row">
+              {this.renderSquare(48)}
+              {this.renderSquare(49)}
+              {this.renderSquare(50)}
+            </div>
+            <div className="board-row">
+              {this.renderSquare(51)}
+              {this.renderSquare(52)}
+              {this.renderSquare(53)}
+            </div>
+          </div>
+        );
+    }
+  }
+  
+  class Board7 extends React.Component {
+    renderSquare(i) {
+      return (
+        <Square
+            value={this.props.squares[i]}
+            onClick={() => this.props.onClick(i)}
+        />
+      );
+    }
+  
+    render() {
+        return (
+          <div>
+            <div className="board-row">
+              {this.renderSquare(54)}
+              {this.renderSquare(55)}
+              {this.renderSquare(56)}
+            </div>
+            <div className="board-row">
+              {this.renderSquare(57)}
+              {this.renderSquare(58)}
+              {this.renderSquare(59)}
+            </div>
+            <div className="board-row">
+              {this.renderSquare(60)}
+              {this.renderSquare(61)}
+              {this.renderSquare(62)}
+            </div>
+          </div>
+        );
+    }
+  }
+  
+  class Board8 extends React.Component {
+    renderSquare(i) {
+      return (
+        <Square
+            value={this.props.squares[i]}
+            onClick={() => this.props.onClick(i)}
+        />
+      );
+    }
+  
+    render() {
+        return (
+          <div>
+            <div className="board-row">
+              {this.renderSquare(63)}
+              {this.renderSquare(64)}
+              {this.renderSquare(65)}
+            </div>
+            <div className="board-row">
+              {this.renderSquare(66)}
+              {this.renderSquare(67)}
+              {this.renderSquare(68)}
+            </div>
+            <div className="board-row">
+              {this.renderSquare(69)}
+              {this.renderSquare(70)}
+              {this.renderSquare(71)}
+            </div>
+          </div>
+        );
+    }
+  }
+  
+  class Board9 extends React.Component {
+    renderSquare(i) {
+      return (
+        <Square
+            value={this.props.squares[i]}
+            onClick={() => this.props.onClick(i)}
+        />
+      );
+    }
+  
+    render() {
+        return (
+          <div>
+            <div className="board-row">
+              {this.renderSquare(72)}
+              {this.renderSquare(73)}
+              {this.renderSquare(74)}
+            </div>
+            <div className="board-row">
+              {this.renderSquare(75)}
+              {this.renderSquare(76)}
+              {this.renderSquare(77)}
+            </div>
+            <div className="board-row">
+              {this.renderSquare(78)}
+              {this.renderSquare(79)}
+              {this.renderSquare(80)}
+            </div>
+          </div>
+        );
+    }
+  }
   
   class Game extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             history: [{
-                squares: Array(9).fill(null),
+                squares: Array(81).fill(null),
             }],
             stepNumber: 0,
             xIsNext: true,
@@ -106,7 +370,39 @@ function Square(props) {
       return (
         <div className="game">
           <div className="game-board">
-            <Board 
+            <Board1
+                squares={current.squares}
+                onClick={(i) => this.handleClick(i)}
+            />
+            <Board2
+                squares={current.squares}
+                onClick={(i) => this.handleClick(i)}
+            />
+            <Board3
+                squares={current.squares}
+                onClick={(i) => this.handleClick(i)}
+            />
+            <Board4
+                squares={current.squares}
+                onClick={(i) => this.handleClick(i)}
+            />
+            <Board5
+                squares={current.squares}
+                onClick={(i) => this.handleClick(i)}
+            />
+            <Board6
+                squares={current.squares}
+                onClick={(i) => this.handleClick(i)}
+            />
+            <Board7
+                squares={current.squares}
+                onClick={(i) => this.handleClick(i)}
+            />
+            <Board8
+                squares={current.squares}
+                onClick={(i) => this.handleClick(i)}
+            />
+            <Board9
                 squares={current.squares}
                 onClick={(i) => this.handleClick(i)}
             />
@@ -129,14 +425,78 @@ function Square(props) {
 
   function calculateWinner(squares) {
     const lines = [
-      [0, 1, 2],
-      [3, 4, 5],
-      [6, 7, 8],
-      [0, 3, 6],
-      [1, 4, 7],
-      [2, 5, 8],
-      [0, 4, 8],
-      [2, 4, 6],
+      [0 + 9 * 0, 1 + 9 * 0, 2 + 9 * 0],
+      [3 + 9 * 0, 4 + 9 * 0, 5 + 9 * 0],
+      [6 + 9 * 0, 7 + 9 * 0, 8 + 9 * 0],
+      [0 + 9 * 0, 3 + 9 * 0, 6 + 9 * 0],
+      [1 + 9 * 0, 4 + 9 * 0, 7 + 9 * 0],
+      [2 + 9 * 0, 5 + 9 * 0, 8 + 9 * 0],
+      [0 + 9 * 0, 4 + 9 * 0, 8 + 9 * 0],
+      [2 + 9 * 0, 4 + 9 * 0, 6 + 9 * 0],
+      [0 + 9 * 1, 1 + 9 * 1, 2 + 9 * 1],
+      [3 + 9 * 1, 4 + 9 * 1, 5 + 9 * 1],
+      [6 + 9 * 1, 7 + 9 * 1, 8 + 9 * 1],
+      [0 + 9 * 1, 3 + 9 * 1, 6 + 9 * 1],
+      [1 + 9 * 1, 4 + 9 * 1, 7 + 9 * 1],
+      [2 + 9 * 1, 5 + 9 * 1, 8 + 9 * 1],
+      [0 + 9 * 1, 4 + 9 * 1, 8 + 9 * 1],
+      [2 + 9 * 1, 4 + 9 * 1, 6 + 9 * 1],
+      [0 + 9 * 2, 1 + 9 * 2, 2 + 9 * 2],
+      [3 + 9 * 2, 4 + 9 * 2, 5 + 9 * 2],
+      [6 + 9 * 2, 7 + 9 * 2, 8 + 9 * 2],
+      [0 + 9 * 2, 3 + 9 * 2, 6 + 9 * 2],
+      [1 + 9 * 2, 4 + 9 * 2, 7 + 9 * 2],
+      [2 + 9 * 2, 5 + 9 * 2, 8 + 9 * 2],
+      [0 + 9 * 2, 4 + 9 * 2, 8 + 9 * 2],
+      [2 + 9 * 2, 4 + 9 * 2, 6 + 9 * 2],
+      [0 + 9 * 3, 1 + 9 * 3, 2 + 9 * 3],
+      [3 + 9 * 3, 4 + 9 * 3, 5 + 9 * 3],
+      [6 + 9 * 3, 7 + 9 * 3, 8 + 9 * 3],
+      [0 + 9 * 3, 3 + 9 * 3, 6 + 9 * 3],
+      [1 + 9 * 3, 4 + 9 * 3, 7 + 9 * 3],
+      [2 + 9 * 3, 5 + 9 * 3, 8 + 9 * 3],
+      [0 + 9 * 3, 4 + 9 * 3, 8 + 9 * 3],
+      [2 + 9 * 3, 4 + 9 * 3, 6 + 9 * 3],
+      [0 + 9 * 4, 1 + 9 * 4, 2 + 9 * 4],
+      [3 + 9 * 4, 4 + 9 * 4, 5 + 9 * 4],
+      [6 + 9 * 4, 7 + 9 * 4, 8 + 9 * 4],
+      [0 + 9 * 4, 3 + 9 * 4, 6 + 9 * 4],
+      [1 + 9 * 4, 4 + 9 * 4, 7 + 9 * 4],
+      [2 + 9 * 4, 5 + 9 * 4, 8 + 9 * 4],
+      [0 + 9 * 4, 4 + 9 * 4, 8 + 9 * 4],
+      [2 + 9 * 4, 4 + 9 * 4, 6 + 9 * 4],
+      [0 + 9 * 5, 1 + 9 * 5, 2 + 9 * 5],
+      [3 + 9 * 5, 4 + 9 * 5, 5 + 9 * 5],
+      [6 + 9 * 5, 7 + 9 * 5, 8 + 9 * 5],
+      [0 + 9 * 5, 3 + 9 * 5, 6 + 9 * 5],
+      [1 + 9 * 5, 4 + 9 * 5, 7 + 9 * 5],
+      [2 + 9 * 5, 5 + 9 * 5, 8 + 9 * 5],
+      [0 + 9 * 5, 4 + 9 * 5, 8 + 9 * 5],
+      [2 + 9 * 5, 4 + 9 * 5, 6 + 9 * 5],
+      [0 + 9 * 6, 1 + 9 * 6, 2 + 9 * 6],
+      [3 + 9 * 6, 4 + 9 * 6, 5 + 9 * 6],
+      [6 + 9 * 6, 7 + 9 * 6, 8 + 9 * 6],
+      [0 + 9 * 6, 3 + 9 * 6, 6 + 9 * 6],
+      [1 + 9 * 6, 4 + 9 * 6, 7 + 9 * 6],
+      [2 + 9 * 6, 5 + 9 * 6, 8 + 9 * 6],
+      [0 + 9 * 6, 4 + 9 * 6, 8 + 9 * 6],
+      [2 + 9 * 6, 4 + 9 * 6, 6 + 9 * 6],
+      [0 + 9 * 7, 1 + 9 * 7, 2 + 9 * 7],
+      [3 + 9 * 7, 4 + 9 * 7, 5 + 9 * 7],
+      [6 + 9 * 7, 7 + 9 * 7, 8 + 9 * 7],
+      [0 + 9 * 7, 3 + 9 * 7, 6 + 9 * 7],
+      [1 + 9 * 7, 4 + 9 * 7, 7 + 9 * 7],
+      [2 + 9 * 7, 5 + 9 * 7, 8 + 9 * 7],
+      [0 + 9 * 7, 4 + 9 * 7, 8 + 9 * 7],
+      [2 + 9 * 7, 4 + 9 * 7, 6 + 9 * 7],
+      [0 + 9 * 8, 1 + 9 * 8, 2 + 9 * 8],
+      [3 + 9 * 8, 4 + 9 * 8, 5 + 9 * 8],
+      [6 + 9 * 8, 7 + 9 * 8, 8 + 9 * 8],
+      [0 + 9 * 8, 3 + 9 * 8, 6 + 9 * 8],
+      [1 + 9 * 8, 4 + 9 * 8, 7 + 9 * 8],
+      [2 + 9 * 8, 5 + 9 * 8, 8 + 9 * 8],
+      [0 + 9 * 8, 4 + 9 * 8, 8 + 9 * 8],
+      [2 + 9 * 8, 4 + 9 * 8, 6 + 9 * 8],
     ];
     for (let i = 0; i < lines.length; i++) {
       const [a, b, c] = lines[i];
