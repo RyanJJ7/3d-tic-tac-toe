@@ -57,19 +57,19 @@ function Square(props) {
         return (
           <div>
             <div className="board-row">
-              {this.renderSquare(9)}
-              {this.renderSquare(10)}
-              {this.renderSquare(11)}
+              {this.renderSquare(0 + 9)}
+              {this.renderSquare(1 + 9)}
+              {this.renderSquare(2 + 9)}
             </div>
             <div className="board-row">
-              {this.renderSquare(12)}
-              {this.renderSquare(13)}
-              {this.renderSquare(14)}
+              {this.renderSquare(3 + 9)}
+              {this.renderSquare(4 + 9)}
+              {this.renderSquare(5 + 9)}
             </div>
             <div className="board-row">
-              {this.renderSquare(15)}
-              {this.renderSquare(16)}
-              {this.renderSquare(17)}
+              {this.renderSquare(6 + 9)}
+              {this.renderSquare(7 + 9)}
+              {this.renderSquare(8 + 9)}
             </div>
           </div>
         );
@@ -90,19 +90,19 @@ function Square(props) {
         return (
           <div>
             <div className="board-row">
-              {this.renderSquare(18)}
-              {this.renderSquare(19)}
-              {this.renderSquare(20)}
+              {this.renderSquare(0 + 9 * 2)}
+              {this.renderSquare(1 + 9 * 2)}
+              {this.renderSquare(2 + 9 * 2)}
             </div>
             <div className="board-row">
-              {this.renderSquare(21)}
-              {this.renderSquare(22)}
-              {this.renderSquare(23)}
+              {this.renderSquare(3 + 9 * 2)}
+              {this.renderSquare(4 + 9 * 2)}
+              {this.renderSquare(5 + 9 * 2)}
             </div>
             <div className="board-row">
-              {this.renderSquare(24)}
-              {this.renderSquare(25)}
-              {this.renderSquare(26)}
+              {this.renderSquare(6 + 9 * 2)}
+              {this.renderSquare(7 + 9 * 2)}
+              {this.renderSquare(8 + 9 * 2)}
             </div>
           </div>
         );
@@ -123,19 +123,19 @@ function Square(props) {
         return (
           <div>
             <div className="board-row">
-              {this.renderSquare(27)}
-              {this.renderSquare(28)}
-              {this.renderSquare(29)}
+              {this.renderSquare(0 + 9 * 3)}
+              {this.renderSquare(1 + 9 * 3)}
+              {this.renderSquare(2 + 9 * 3)}
             </div>
             <div className="board-row">
-              {this.renderSquare(30)}
-              {this.renderSquare(31)}
-              {this.renderSquare(32)}
+              {this.renderSquare(3 + 9 * 3)}
+              {this.renderSquare(4 + 9 * 3)}
+              {this.renderSquare(5 + 9 * 3)}
             </div>
             <div className="board-row">
-              {this.renderSquare(33)}
-              {this.renderSquare(34)}
-              {this.renderSquare(35)}
+              {this.renderSquare(6 + 9 * 3)}
+              {this.renderSquare(7 + 9 * 3)}
+              {this.renderSquare(8 + 9 * 3)}
             </div>
           </div>
         );
@@ -156,19 +156,19 @@ function Square(props) {
         return (
           <div>
             <div className="board-row">
-              {this.renderSquare(36)}
-              {this.renderSquare(37)}
-              {this.renderSquare(38)}
+              {this.renderSquare(0 + 9 * 4)}
+              {this.renderSquare(1 + 9 * 4)}
+              {this.renderSquare(2 + 9 * 4)}
             </div>
             <div className="board-row">
-              {this.renderSquare(39)}
-              {this.renderSquare(40)}
-              {this.renderSquare(41)}
+              {this.renderSquare(3 + 9 * 4)}
+              {this.renderSquare(4 + 9 * 4)}
+              {this.renderSquare(5 + 9 * 4)}
             </div>
             <div className="board-row">
-              {this.renderSquare(42)}
-              {this.renderSquare(43)}
-              {this.renderSquare(44)}
+              {this.renderSquare(6 + 9 * 4)}
+              {this.renderSquare(7 + 9 * 4)}
+              {this.renderSquare(8 + 9 * 4)}
             </div>
           </div>
         );
@@ -189,19 +189,19 @@ function Square(props) {
         return (
           <div>
             <div className="board-row">
-              {this.renderSquare(45)}
-              {this.renderSquare(46)}
-              {this.renderSquare(47)}
+              {this.renderSquare(0 + 9 * 5)}
+              {this.renderSquare(1 + 9 * 5)}
+              {this.renderSquare(2 + 9 * 5)}
             </div>
             <div className="board-row">
-              {this.renderSquare(48)}
-              {this.renderSquare(49)}
-              {this.renderSquare(50)}
+              {this.renderSquare(3 + 9 * 5)}
+              {this.renderSquare(4 + 9 * 5)}
+              {this.renderSquare(5 + 9 * 5)}
             </div>
             <div className="board-row">
-              {this.renderSquare(51)}
-              {this.renderSquare(52)}
-              {this.renderSquare(53)}
+              {this.renderSquare(6 + 9 * 5)}
+              {this.renderSquare(7 + 9 * 5)}
+              {this.renderSquare(8 + 9 * 5)}
             </div>
           </div>
         );
@@ -222,19 +222,19 @@ function Square(props) {
         return (
           <div>
             <div className="board-row">
-              {this.renderSquare(54)}
-              {this.renderSquare(55)}
-              {this.renderSquare(56)}
+              {this.renderSquare(0 + 9 * 6)}
+              {this.renderSquare(1 + 9 * 6)}
+              {this.renderSquare(2 + 9 * 6)}
             </div>
             <div className="board-row">
-              {this.renderSquare(57)}
-              {this.renderSquare(58)}
-              {this.renderSquare(59)}
+              {this.renderSquare(3 + 9 * 6)}
+              {this.renderSquare(4 + 9 * 6)}
+              {this.renderSquare(5 + 9 * 6)}
             </div>
             <div className="board-row">
-              {this.renderSquare(60)}
-              {this.renderSquare(61)}
-              {this.renderSquare(62)}
+              {this.renderSquare(6 + 9 * 6)}
+              {this.renderSquare(7 + 9 * 6)}
+              {this.renderSquare(8 + 9 * 6)}
             </div>
           </div>
         );
@@ -255,19 +255,19 @@ function Square(props) {
         return (
           <div>
             <div className="board-row">
-              {this.renderSquare(63)}
-              {this.renderSquare(64)}
-              {this.renderSquare(65)}
+              {this.renderSquare(0 + 9 * 7)}
+              {this.renderSquare(1 + 9 * 7)}
+              {this.renderSquare(2 + 9 * 7)}
             </div>
             <div className="board-row">
-              {this.renderSquare(66)}
-              {this.renderSquare(67)}
-              {this.renderSquare(68)}
+              {this.renderSquare(3 + 9 * 7)}
+              {this.renderSquare(4 + 9 * 7)}
+              {this.renderSquare(5 + 9 * 7)}
             </div>
             <div className="board-row">
-              {this.renderSquare(69)}
-              {this.renderSquare(70)}
-              {this.renderSquare(71)}
+              {this.renderSquare(6 + 9 * 7)}
+              {this.renderSquare(7 + 9 * 7)}
+              {this.renderSquare(8 + 9 * 7)}
             </div>
           </div>
         );
@@ -288,19 +288,19 @@ function Square(props) {
         return (
           <div>
             <div className="board-row">
-              {this.renderSquare(72)}
-              {this.renderSquare(73)}
-              {this.renderSquare(74)}
+              {this.renderSquare(0 + 9 * 8)}
+              {this.renderSquare(1 + 9 * 8)}
+              {this.renderSquare(2 + 9 * 8)}
             </div>
             <div className="board-row">
-              {this.renderSquare(75)}
-              {this.renderSquare(76)}
-              {this.renderSquare(77)}
+              {this.renderSquare(3 + 9 * 8)}
+              {this.renderSquare(4 + 9 * 8)}
+              {this.renderSquare(5 + 9 * 8)}
             </div>
             <div className="board-row">
-              {this.renderSquare(78)}
-              {this.renderSquare(79)}
-              {this.renderSquare(80)}
+              {this.renderSquare(6 + 9 * 8)}
+              {this.renderSquare(7 + 9 * 8)}
+              {this.renderSquare(8 + 9 * 8)}
             </div>
           </div>
         );
@@ -425,22 +425,22 @@ function Square(props) {
 
   function calculateWinner(squares) {
     const lines = [
-      [0 + 9 * 0, 1 + 9 * 0, 2 + 9 * 0],
-      [3 + 9 * 0, 4 + 9 * 0, 5 + 9 * 0],
-      [6 + 9 * 0, 7 + 9 * 0, 8 + 9 * 0],
-      [0 + 9 * 0, 3 + 9 * 0, 6 + 9 * 0],
-      [1 + 9 * 0, 4 + 9 * 0, 7 + 9 * 0],
-      [2 + 9 * 0, 5 + 9 * 0, 8 + 9 * 0],
-      [0 + 9 * 0, 4 + 9 * 0, 8 + 9 * 0],
-      [2 + 9 * 0, 4 + 9 * 0, 6 + 9 * 0],
-      [0 + 9 * 1, 1 + 9 * 1, 2 + 9 * 1],
-      [3 + 9 * 1, 4 + 9 * 1, 5 + 9 * 1],
-      [6 + 9 * 1, 7 + 9 * 1, 8 + 9 * 1],
-      [0 + 9 * 1, 3 + 9 * 1, 6 + 9 * 1],
-      [1 + 9 * 1, 4 + 9 * 1, 7 + 9 * 1],
-      [2 + 9 * 1, 5 + 9 * 1, 8 + 9 * 1],
-      [0 + 9 * 1, 4 + 9 * 1, 8 + 9 * 1],
-      [2 + 9 * 1, 4 + 9 * 1, 6 + 9 * 1],
+      [0, 1, 2],
+      [3, 4, 5],
+      [6, 7, 8],
+      [0, 3, 6],
+      [1, 4, 7],
+      [2, 5, 8],
+      [0, 4, 8],
+      [2, 4, 6],
+      [0 + 9, 1 + 9, 2 + 9],
+      [3 + 9, 4 + 9, 5 + 9],
+      [6 + 9, 7 + 9, 8 + 9],
+      [0 + 9, 3 + 9, 6 + 9],
+      [1 + 9, 4 + 9, 7 + 9],
+      [2 + 9, 5 + 9, 8 + 9],
+      [0 + 9, 4 + 9, 8 + 9],
+      [2 + 9, 4 + 9, 6 + 9],
       [0 + 9 * 2, 1 + 9 * 2, 2 + 9 * 2],
       [3 + 9 * 2, 4 + 9 * 2, 5 + 9 * 2],
       [6 + 9 * 2, 7 + 9 * 2, 8 + 9 * 2],
